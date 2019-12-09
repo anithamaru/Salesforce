@@ -48,7 +48,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 //		}
 
 		public static void Reporting() {
-	//"C:\Users\mapkhome\Desktop\SFDC_Project\SFDC_ExtendReports"
+	
 			String fileName = new SimpleDateFormat("'SampleTestExtentDemo_'yyyyMMddHHmm'.html'").format(new Date());
 			String reportPath = "C:\\Users\\mapkhome\\Desktop\\SFDC_Project\\SFDC_ExtendReports\\" + fileName;
 			reports = new ExtentReports(reportPath);
@@ -177,7 +177,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 				System.out.println("FAIL: Correct Message is not displayed ");
 			}
 		}
-//@Test
+@Test(priority=1)
 		public static void TC_01_loginErrorMessage() throws Exception {
 			Reporting();
 			logger = reports.startTest("TC_01_loginErrorMessage");
@@ -204,7 +204,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 			Report_Close();
 			TearDown();
 		}
-        @Test(priority=1)
+        @Test(priority=2)
 		public static void TC_02_loginToSFDC() throws Exception {
 			Reporting();
 			logger = reports.startTest("TC_02_loginToSFDC");
@@ -231,7 +231,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 			Report_Close();
 //			TearDown();
 		}
-//@Test
+@Test(priority=3)
 		public static void TC_03_rememberMeCheckBox() throws Exception {
 			logger = reports.startTest("TC_03_rememberMeCheckBox");
 			String data[][] = getDataInput(
@@ -271,7 +271,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 			validate_Message(expectedUserName, actualUserName);
 
 		}
-//@Test
+@Test(priority=4)
 		public static void TC_4A_forgotPassword() throws Exception {
 			logger = reports.startTest("TC_4A_forgotPassword");
 			String data[][] = getDataInput(
@@ -296,7 +296,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 			String actualText = "We�ve sent you an email with a link to finish resetting your password.";
 			validate_Message(forgotpwdText, actualText);
 		}
-//@Test
+@Test(priority=5)
 		public static void TC_4B_validateLoginErrorMessage() throws Exception {
 			logger = reports.startTest("TC_4B_validateLoginErrorMessage");
 			String data[][] = getDataInput(
@@ -321,7 +321,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 					+ " or your location or login time may be restricted. Please contact the administrator at your company for help'";
 			validate_Message(printErrorMsg, actualMsg);
 		}
-//@Test
+@Test(priority=6)
 		public static void TC_05_SelectUserMenu() throws Exception {
 			logger = reports.startTest("TC_05_SelectUserMenu");
 	       
