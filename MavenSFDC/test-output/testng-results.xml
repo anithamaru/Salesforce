@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112933" started-at="2019-12-08T23:25:31 PST" finished-at="2019-12-08T23:27:23 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112933" started-at="2019-12-08T23:25:31 PST" finished-at="2019-12-08T23:27:23 PST">
+      <class name="SalesforceTest">
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:SalesforceTest@3b084709]" name="setupChromeDriver" is-config="true" duration-ms="16330" started-at="2019-12-08T23:25:31 PST" finished-at="2019-12-08T23:25:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="TC_01_loginErrorMessage()[pri:1, instance:SalesforceTest@3b084709]" name="TC_01_loginErrorMessage" duration-ms="10124" started-at="2019-12-08T23:25:47 PST" finished-at="2019-12-08T23:25:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_loginErrorMessage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SalesforceTest@3b084709]" name="TearDown" is-config="true" duration-ms="3002" started-at="2019-12-08T23:25:57 PST" finished-at="2019-12-08T23:26:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:SalesforceTest@3b084709]" name="setupChromeDriver" is-config="true" duration-ms="12740" started-at="2019-12-08T23:26:00 PST" finished-at="2019-12-08T23:26:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="TC_02_loginToSFDC()[pri:2, instance:SalesforceTest@3b084709]" name="TC_02_loginToSFDC" duration-ms="2716" started-at="2019-12-08T23:26:13 PST" finished-at="2019-12-08T23:26:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_loginToSFDC -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SalesforceTest@3b084709]" name="TearDown" is-config="true" duration-ms="3849" started-at="2019-12-08T23:26:16 PST" finished-at="2019-12-08T23:26:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:SalesforceTest@3b084709]" name="setupChromeDriver" is-config="true" duration-ms="12282" started-at="2019-12-08T23:26:19 PST" finished-at="2019-12-08T23:26:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="TC_03_rememberMeCheckBox()[pri:3, instance:SalesforceTest@3b084709]" name="TC_03_rememberMeCheckBox" duration-ms="12610" started-at="2019-12-08T23:26:32 PST" finished-at="2019-12-08T23:26:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_rememberMeCheckBox -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SalesforceTest@3b084709]" name="TearDown" is-config="true" duration-ms="4407" started-at="2019-12-08T23:26:44 PST" finished-at="2019-12-08T23:26:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:SalesforceTest@3b084709]" name="setupChromeDriver" is-config="true" duration-ms="12164" started-at="2019-12-08T23:26:49 PST" finished-at="2019-12-08T23:27:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="TC_4A_forgotPassword()[pri:4, instance:SalesforceTest@3b084709]" name="TC_4A_forgotPassword" duration-ms="1657" started-at="2019-12-08T23:27:01 PST" finished-at="2019-12-08T23:27:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_4A_forgotPassword -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SalesforceTest@3b084709]" name="TearDown" is-config="true" duration-ms="3770" started-at="2019-12-08T23:27:03 PST" finished-at="2019-12-08T23:27:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:SalesforceTest@3b084709]" name="setupChromeDriver" is-config="true" duration-ms="12174" started-at="2019-12-08T23:27:06 PST" finished-at="2019-12-08T23:27:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupChromeDriver -->
+        <test-method status="PASS" signature="TC_4B_validateLoginErrorMessage()[pri:5, instance:SalesforceTest@3b084709]" name="TC_4B_validateLoginErrorMessage" duration-ms="1132" started-at="2019-12-08T23:27:18 PST" finished-at="2019-12-08T23:27:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_4B_validateLoginErrorMessage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:SalesforceTest@3b084709]" name="TearDown" is-config="true" duration-ms="3808" started-at="2019-12-08T23:27:20 PST" finished-at="2019-12-08T23:27:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Report_Close()[pri:0, instance:SalesforceTest@3b084709]" name="Report_Close" is-config="true" duration-ms="36" started-at="2019-12-08T23:27:23 PST" finished-at="2019-12-08T23:27:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report_Close -->
+      </class> <!-- SalesforceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
